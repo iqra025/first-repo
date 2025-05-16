@@ -1,26 +1,26 @@
-.container{
-    width: 300px;
-    height: 250px;
-    background: radial-gradient(#66a542,#b558b2);
-    border: 5px  dotted rgb(99, 106, 189)
+body{
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.5;
 }
-#blur{
-    width: 350px;
-    height: 350px;
-    background: radial-gradient(hwb(87 20% 33%),hwb(302 5% 69%));
-    border-radius: 100%;
+label {
+  display: block;      
+  margin-bottom: 5px;   
+  font-weight: bold; }
+input:focus{
+   outline: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 5px solid brown;
+  background-color: aqua;
 
 }
-h1{
-    text-shadow: 2px 2px 4px rgba(14, 20, 129, 0.5);
+.inputgroup{
+padding-bottom: 1rem;
+ 
+
+ 
 }
-.spark{
-    width: 150px;
-    height: 150px;
-    box-shadow: 3px  2px 3px 2px green
-    
-    
-}
-.spark{
-    text-shadow: 2px 2px 4px brown
+ 
+button{
+  padding: 0.5rem 0.7rem;
+  background-color: aqua;
 }
